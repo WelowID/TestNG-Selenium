@@ -1,11 +1,11 @@
-package tests;
+package tests.redmine_tests;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 import pages.HomePage;
-import pages.LoginHomePage;
+import pages.LoginBasePage;
 
-public class LoginTest extends BaseTest{
+public class LoginTests extends BaseSeleniumTest {
 
     //*************DATA PROVIDERS*************
 
@@ -31,7 +31,7 @@ public class LoginTest extends BaseTest{
     public void validLoginTest(String user, String password) {
         //*************PAGE INSTANTIATIONS*************
         HomePage homePage = new HomePage(driver);
-        LoginHomePage loginHomePage = new LoginHomePage(driver);
+        LoginBasePage loginHomePage = new LoginBasePage(driver);
 
         //*************PAGE METHODS********************
         homePage.goToRedmine()

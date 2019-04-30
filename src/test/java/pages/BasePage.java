@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -44,6 +45,17 @@ public class BasePage {
         waitVisibility(elementBy);
         Assert.assertEquals(readText(elementBy), expectedText);
 
+    }
+
+    //Select Drop Menu Option
+    public void selectDropMenuOption(By dropMenuBy, String option) {
+        click(dropMenuBy);
+        driver.findElement(dropMenuBy).findElement(By.linkText(option)).click();
+    }
+
+    public void selectDropMenuOption(By dropMenuBy, By option) {
+        click(dropMenuBy);
+        driver.findElement(dropMenuBy).findElement(option).click();
     }
 
 }

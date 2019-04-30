@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcf713af-fc55-49dd-aa40-22460e1f30bc" name="Default Changelist" comment="" />
+    <list default="true" id="dcf713af-fc55-49dd-aa40-22460e1f30bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/json_configs/appium_configs/android_nexus6_android7.1.1_default_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginBasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LogoutBasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/NewProjectPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProjectPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/appium_tests/BaseAppiumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/redmine_tests/ProjectTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DeviceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Frammework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JsonConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JsonReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redminetests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javatests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/redmine_tests/BaseSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/redmine_tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,19 +48,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DeviceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="300">
+              <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,14 +60,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="135">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/redmine_tests/LoginTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,52 +83,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="7" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/redmine_tests/BaseSeleniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-              <folding>
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginHomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -112,16 +110,46 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Map</find>
+      <find>logedAsLinkBy</find>
+      <find>startMacAppiumServer</find>
+      <find>context</find>
+      <find>appium_subprocess</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LoginHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/TopMenuLogOut.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/TopMenuLogIn.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/NewProjectPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ProjectPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/Util.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/redmine_tests/ProjectTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/ProjectTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/appium_tests/ProjectTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/appium_tests/BaseSeleniumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/redmine_tests/BaseSeleniumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/appium_tests/BaseAppiumTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/JsonReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/JsonConfigReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/json_configs/appium_configs/android_nexus6_android7.1.1_default_config.json" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/DeviceFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginBasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/Frammework.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
       </list>
     </option>
   </component>
@@ -132,17 +160,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="21" />
-    <option name="y" value="24" />
-    <option name="width" value="1878" />
-    <option name="height" value="977" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,20 +178,64 @@
               <item name="redminetests" type="b2602c69:ProjectViewProjectNode" />
               <item name="redminetests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="redminetests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redminetests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redminetests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redminetests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redminetests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redminetests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redminetests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redminetests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redminetests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redminetests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="redmine_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redminetests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redminetests" type="462c0819:PsiDirectoryNode" />
+              <item name="testng-selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -180,17 +252,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="redminetests" />
+  <component name="RunManager" selected="TestNG.LoginTests.validLoginTest">
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.redmine_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.redmine_tests.LoginTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -198,16 +270,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.invalidLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="redminetests" />
+    <configuration name="LoginTests.invalidLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.redmine_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.redmine_tests.LoginTests" />
       <option name="METHOD_NAME" value="invalidLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -216,8 +288,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTests.validLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.redmine_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.redmine_tests.LoginTests" />
+      <option name="METHOD_NAME" value="validLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.redmine_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.redmine_tests.ProjectTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="redminetests" />
+      <module name="javatests" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
@@ -228,8 +335,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.invalidLoginTest" />
+        <item itemvalue="TestNG.LoginTests.validLoginTest" />
+        <item itemvalue="TestNG.ProjectTests" />
+        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.LoginTests.invalidLoginTest" />
         <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
@@ -246,38 +355,58 @@
       <updated>1554390370150</updated>
       <workItem from="1554390374056" duration="896000" />
       <workItem from="1554391502972" duration="810000" />
-      <workItem from="1554392474108" duration="5158000" />
+      <workItem from="1554392474108" duration="5549000" />
+      <workItem from="1554463429819" duration="12668000" />
+      <workItem from="1554724593057" duration="3948000" />
+      <workItem from="1554731719700" duration="1319000" />
+      <workItem from="1554815125166" duration="1000" />
+      <workItem from="1554821919533" duration="1010000" />
+      <workItem from="1554829288197" duration="531000" />
+      <workItem from="1554897823541" duration="223000" />
+      <workItem from="1554898101074" duration="1528000" />
+      <workItem from="1555590062886" duration="64000" />
+      <workItem from="1556296865980" duration="678000" />
+      <workItem from="1556545814210" duration="516000" />
+      <workItem from="1556626322745" duration="1040000" />
+      <workItem from="1556632020274" duration="422000" />
+      <workItem from="1556632569067" duration="373000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_default_ - 2019.04.04 at 14h 03m 15s.xml">
-      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    <history-entry file="ProjectTests - 2019.04.05 at 12h 58m 01s.xml">
+      <configuration name="ProjectTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default_ - 2019.04.04 at 14h 05m 21s.xml">
-      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    <history-entry file="ProjectTests - 2019.04.05 at 13h 00m 58s.xml">
+      <configuration name="ProjectTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest_invalidLoginTest - 2019.04.04 at 14h 11m 36s.xml">
-      <configuration name="LoginTest.invalidLoginTest" configurationId="TestNG" />
+    <history-entry file="ProjectTests - 2019.04.05 at 13h 09m 47s.xml">
+      <configuration name="ProjectTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest_invalidLoginTest - 2019.04.04 at 14h 14m 19s.xml">
-      <configuration name="LoginTest.invalidLoginTest" configurationId="TestNG" />
+    <history-entry file="ProjectTests - 2019.04.05 at 13h 14m 01s.xml">
+      <configuration name="ProjectTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.04.04 at 14h 14m 38s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="ProjectTests - 2019.04.05 at 13h 17m 01s.xml">
+      <configuration name="ProjectTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.04.04 at 14h 16m 07s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="ProjectTests - 2019.04.05 at 13h 17m 47s.xml">
+      <configuration name="ProjectTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.04.04 at 14h 16m 58s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="ProjectTests - 2019.04.05 at 13h 42m 32s.xml">
+      <configuration name="ProjectTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.04.04 at 14h 18m 45s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="ProjectTests - 2019.04.05 at 13h 43m 14s.xml">
+      <configuration name="ProjectTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProjectTests - 2019.04.05 at 13h 47m 32s.xml">
+      <configuration name="ProjectTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProjectTests - 2019.04.05 at 14h 08m 21s.xml">
+      <configuration name="ProjectTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6864000" />
+    <option name="totallyTimeSpent" value="31576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,21 +418,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="979" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18370607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14483494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32919955" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919955" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287037" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4097222" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919955" />
@@ -313,6 +441,8 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32919955" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32919955" />
+      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.32826748" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.3298611" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -327,81 +457,247 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>driver.findElement(dropMenuBy).findElement(By.xpath(&quot;option[@value='19']&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(dropMenuBy).findElement(By.xpath(&quot;option[@value='19&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(dropMenuBy).findElement(By.xpath(&quot;option[@value='&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(dropMenuBy).findElements(By.xpath(&quot;option&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(dropMenuBy).findElement(By.xpath(&quot;option&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(dropMenuBy).findElement(By.xpath(&quot;optionç&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(dropMenuBy).findElement(By.xpath(&quot;&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(dropMenuBy).findElement(By.partialLinkText(&quot;&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(dropMenuBy).findElement(By.linkText(&quot;&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginHomePage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginHomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LogoutBasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/SearchContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/NewProjectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ProjectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/redmine_tests/ProjectTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/appium_tests/BaseAppiumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="705">
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginBasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/JsonConfigReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/json_configs/appium_configs/android_nexus6_android7.1.1_default_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/JsonReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Frammework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/ui/Select.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DeviceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/redmine_tests/BaseSeleniumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="7" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/redmine_tests/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding>
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        <state relative-caret-position="465">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

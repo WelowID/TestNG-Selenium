@@ -2,8 +2,11 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
-public class LoginPage extends BasePage{
+public class LoginPage extends LogoutBasePage{
 
     //*********Constructor*********
     public LoginPage(WebDriver driver) {
@@ -11,6 +14,7 @@ public class LoginPage extends BasePage{
     }
 
     //*********WebElements*********
+    private LogoutBasePage topMenu = new LogoutBasePage(driver);
     private By usernameTxtBy = By.id("username");
     private By passwordTxtBy = By.id("password");
     private By submitButtonBy = By.id("login-submit");
